@@ -1,0 +1,31 @@
+2024-04-21T00:41:14+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-21T00:41:14+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/disputes?test_mode=1&pagesize=50&search%5B0%5D=warning_needs_response&search%5B1%5D=needs_response
+2024-04-21T00:41:14+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-21T00:41:15+00:00 INFO Could not process the account. (wcpay_could_not_process_account)
+2024-04-21T02:00:38+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-21T02:00:38+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=usd
+2024-04-21T02:00:38+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-21T02:00:38+00:00 INFO RESPONSE: array (
+)

@@ -1,0 +1,240 @@
+/*
+Theme Name:  Market Boost
+Theme URI: https://www.eaglevisionit.com/downloads/market-boost
+Author: Eagle Vision IT
+Author URI: https://www.eaglevisionit.com
+Description: Market Boost is a dynamic WordPress theme that empowers users to create stunning websites with its advanced features and sleek design. Integrated seamlessly with the Gutenberg editor and offering full-site editing support, Market Boost allows users of all skill levels to unleash their creativity and build a website that reflects their unique vision. With its clean and minimalistic design, Market Boost provides the perfect backdrop for showcasing content across various devices. Furthermore, its focus on performance optimization ensures lightning-fast loading times and smooth navigation, enhancing user satisfaction and improving search engine rankings. Additionally, Market Boost prioritizes search engine optimization (SEO) to maximize website visibility and reach. With dedicated support from the theme authors, users can receive assistance and guidance throughout their website-building journey. In summary, Market Boost is a comprehensive solution for building and optimizing websites, empowering users to stand out in the competitive online landscape.
+Tested up to: 6.4
+Requires PHP: 5.9
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: market-boost
+Tags: editor-style, right-sidebar, custom-menu, custom-logo, custom-colors, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments
+*/
+.wp-site-blocks>*+* {
+    margin-block-start: 0;
+  }
+
+.app-store{
+    border: 1px solid #75767C;
+    padding-top: 7px;
+    
+    padding-left: 3px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    gap: 1px!important;
+}
+
+.drop-down-arrow-header a img{
+    display: flex;
+}
+
+.header-paragraph-red a{
+color:#EE403D;
+}
+
+.header-paragraph-white a{
+color:white;
+}
+
+.header-paragraph-white{
+    color:white;
+    }
+
+    .img-logo{
+           opacity: 0.8;
+           cursor: pointer;
+
+    }
+
+.img-logo:hover{
+        opacity: 1;
+          }
+
+.banner-collection::after{
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+  
+}
+.banner-collection:hover::after{
+    margin-left: 7px;
+    transform: translate(-50%, -50%);
+    transition: margin-left 1s ease;
+}
+.wp-block-post-date time::before{
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 7px;
+    font-size: 14px;
+}
+
+ 
+footer{
+    margin-block-start: 0px!important;
+}
+.app-store-first::before{
+    content: "\f5d1";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 7px;
+    margin-left: 4px;
+    font-size: 14px;   
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--wp--preset--color--white-constant);
+}
+.app-store-second::before{
+    content: "\f04b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 7px;
+    margin-left: 4px;
+    font-size: 14px;   
+    font-weight: 600;
+    font-size: 20px;
+    color:  var(--wp--preset--color--white-constant);
+}
+
+.products-block-post-template li{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/*pagination*/
+.page-numbers.current{
+    background: var(--wp--preset--color--base-2)!important;
+    padding: 8px 15px!important;
+    cursor: pointer;
+}
+
+li.page-numbers, a.page-numbers{
+    background: var(--wp--preset--color--base-2);
+    padding: 8px 15px!important;
+    margin: 0px 1px!important;
+    line-height: 16px!important;
+}
+
+li.page-numbers:hover,a.page-numbers:hover{
+    background:var(--wp--preset--color--asset-2);
+    color: var(--wp--preset--color--white-constant);
+
+}
+li.page-numbers.dots,span.page-numbers.dots{
+    display: none;
+}
+ul.page-numbers{
+    border: none!important;
+}
+.woocommerce nav.woocommerce-pagination ul li{
+    border-right: none;
+    float: none;
+}
+
+span.page-numbers.dots + a.page-numbers{
+   display: none;
+}
+
+.wp-block-query-pagination{
+    gap: unset;
+}
+/* pagination */
+
+.taxonomy-category:before{
+    content: "\f03a"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+ul.wp-block-categories-list.wp-block-categories{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul.wp-block-categories-list.wp-block-categories li::before{
+    content: "\f03a"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 10px;
+} 
+
+.tag-cloud-link{
+    font-size: var(--wp--preset--font-size--normal)!important;
+}
+
+.post-navigation-link-previous.wp-block-post-navigation-link a{
+   color: var(--wp--preset--color--contrast);
+}
+.wp-block-search__inside-wrapper{
+    margin-block-start: 0px;
+}
+.wp-block-search__input {
+    padding: 0px 8px;
+}
+
+.wp-block-navigation__responsive-dialog{
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .block-shop-search-products{
+               display: none;
+    }
+  }
+
+  .wp-block-search__button-inside .wp-block-search__inside-wrapper{
+    padding: 0px;
+  }
+
+  .block-header{
+    box-shadow: 3px 4px 10px #b8b1b166;
+  }
+  .wc-block-mini-cart__amount{
+	display:none!important;
+}
+
+.block-shop-search-products div{
+   border: 0px;
+}
+
+.block-shop-search-products div .wp-block-search__input{
+    border: 1px solid;
+    color: #c9c7c7;
+    border-radius: 6px 0px 0px 6px!important;
+}
+.block-shop-search-products div .wp-block-search__button{
+  margin: 0px;
+}
+
+.block-front-cover{
+    box-shadow: -2px 6px 10px #E0E0E0;
+}
+
+.inside-banner div{
+    border-radius: 6px;
+}
+
+.block-shop-search-products div button{
+    border-radius: 0px 6px 6px 0px!important;
+}
+
+.home a, .header a, .footer a, .sidebar a{
+    text-decoration: none;
+}
+.block-header a{
+    text-decoration: none;
+}
+
+.block-footer a{
+    text-decoration: none;
+}
+
+.featured-img{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(min(7rem, 100%), 1fr));
+    grid-gap: 1rem;
+}

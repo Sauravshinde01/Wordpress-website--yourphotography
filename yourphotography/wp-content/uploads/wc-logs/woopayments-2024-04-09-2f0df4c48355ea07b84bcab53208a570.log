@@ -1,0 +1,869 @@
+2024-04-09T03:12:33+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'REQUEST_URI' => '/shop/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-09T03:12:33+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=usd
+2024-04-09T03:12:33+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-09T03:12:34+00:00 INFO RESPONSE: array (
+)
+2024-04-09T09:36:35+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'REQUEST_URI' => '/product/postcard-v3/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-09T09:36:35+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=usd
+2024-04-09T09:36:35+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-09T09:36:35+00:00 INFO RESPONSE: array (
+)
+2024-04-09T18:26:43+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-09T18:26:43+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=usd
+2024-04-09T18:26:43+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-09T18:26:43+00:00 INFO RESPONSE: array (
+)
+2024-04-09T19:58:10+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-09T19:58:10+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=0
+2024-04-09T19:58:10+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-09T19:58:14+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1P1aKNFpo8TbXtYk',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => true,
+  'created' => '2024-04-03 20:22:38',
+  'has_pending_requirements' => true,
+  'has_future_requirements' => true,
+  'has_overdue_requirements' => true,
+  'details_submitted' => true,
+  'current_deadline' => NULL,
+  'status' => 'under_review',
+  'capabilities' => 
+  array (
+    'card_payments' => 'pending_verification',
+    'transfers' => 'pending_verification',
+    'acss_debit_payments' => 'unrequested',
+    'affirm_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'amazon_pay_payments' => 'unrequested',
+    'bancontact_payments' => 'unrequested',
+    'bank_transfer_payments' => 'unrequested',
+    'cartes_bancaires_payments' => 'unrequested',
+    'cashapp_payments' => 'unrequested',
+    'eps_payments' => 'unrequested',
+    'giropay_payments' => 'unrequested',
+    'ideal_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'klarna_payments' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'p24_payments' => 'unrequested',
+    'sepa_debit_payments' => 'unrequested',
+    'sofort_payments' => 'unrequested',
+    'tax_reporting_us_1099_k' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'affirm_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'amazon_pay_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'bancontact_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'bank_transfer_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'card_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'cartes_bancaires_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'cashapp_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'eps_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'giropay_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'ideal_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'klarna' => 
+    array (
+    ),
+    'klarna_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'link_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'p24_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'sepa_debit_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'sofort_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+      0 => 'individual.ssn_last_4',
+    ),
+  ),
+  'payments_enabled' => false,
+  'deposits' => 
+  array (
+    'status' => 'disabled',
+    'restrictions' => 'deposits_blocked',
+    'interval' => 'daily',
+    'weekly_anchor' => '',
+    'monthly_anchor' => NULL,
+    'delay_days' => 2,
+    'completed_waiting_period' => false,
+    'minimum_manual_deposit_amounts' => 
+    array (
+      'aud' => 500,
+      'bgn' => 100,
+      'cad' => 500,
+      'chf' => 500,
+      'czk' => 3000,
+      'dkk' => 5000,
+      'eur' => 500,
+      'gbp' => 500,
+      'hkd' => 5000,
+      'huf' => 36000,
+      'nok' => 5000,
+      'nzd' => 500,
+      'jpy' => 50,
+      'sek' => 5000,
+      'sgd' => 500,
+      'usd' => 500,
+      'ron' => 500,
+      'pln' => 500,
+      'aed' => 200,
+    ),
+    'minimum_scheduled_deposit_amounts' => 
+    array (
+      'aed' => 200,
+      'aud' => 0,
+      'bgn' => 100,
+      'cad' => 0,
+      'chf' => 500,
+      'czk' => 3000,
+      'dkk' => 2000,
+      'eur' => 100,
+      'gbp' => 100,
+      'hkd' => 0,
+      'huf' => 36000,
+      'jpy' => 1,
+      'nok' => 2000,
+      'nzd' => 0,
+      'pln' => 500,
+      'ron' => 500,
+      'sek' => 2000,
+      'sgd' => 100,
+      'usd' => 0,
+    ),
+  ),
+  'lifetime_total_payments_volume' => 0,
+  'requirements' => 
+  array (
+    'errors' => 
+    array (
+    ),
+  ),
+  'statement_descriptor' => 'WWW.YOURPHOTOGRAPHY.IN',
+  'statement_descriptor_kanji' => '',
+  'statement_descriptor_kana' => '',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2024-04-03 20:22:38',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+      0 => 
+      array (
+        'start_time' => '2024-04-03 20:27:46',
+        'end_time' => '2024-07-04 08:27:46',
+        'volume_allowance' => NULL,
+        'volume_currency' => 'usd',
+        'current_volume' => NULL,
+        'discount' => 0.1,
+        'tc_url' => 'https://woo.com/terms-conditions/woopayments-action-promotion-2023/',
+      ),
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+        0 => 
+        array (
+          'start_time' => '2024-04-03 20:27:46',
+          'end_time' => '2024-07-04 08:27:46',
+          'volume_allowance' => NULL,
+          'volume_currency' => 'usd',
+          'current_volume' => NULL,
+          'discount' => 0.1,
+          'tc_url' => 'https://woo.com/terms-conditions/woopayments-action-promotion-2023/',
+        ),
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.027,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'affirm' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.06,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'afterpay_clearpay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.06,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'klarna' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.0599,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+      0 => 'usd',
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'htg',
+      52 => 'huf',
+      53 => 'idr',
+      54 => 'ils',
+      55 => 'inr',
+      56 => 'isk',
+      57 => 'jmd',
+      58 => 'jpy',
+      59 => 'kes',
+      60 => 'kgs',
+      61 => 'khr',
+      62 => 'kmf',
+      63 => 'krw',
+      64 => 'kyd',
+      65 => 'kzt',
+      66 => 'lak',
+      67 => 'lbp',
+      68 => 'lkr',
+      69 => 'lrd',
+      70 => 'lsl',
+      71 => 'mad',
+      72 => 'mdl',
+      73 => 'mga',
+      74 => 'mkd',
+      75 => 'mmk',
+      76 => 'mnt',
+      77 => 'mop',
+      78 => 'mur',
+      79 => 'mvr',
+      80 => 'mwk',
+      81 => 'mxn',
+      82 => 'myr',
+      83 => 'mzn',
+      84 => 'nad',
+      85 => 'ngn',
+      86 => 'nio',
+      87 => 'nok',
+      88 => 'npr',
+      89 => 'nzd',
+      90 => 'pab',
+      91 => 'pen',
+      92 => 'pgk',
+      93 => 'php',
+      94 => 'pkr',
+      95 => 'pln',
+      96 => 'pyg',
+      97 => 'qar',
+      98 => 'ron',
+      99 => 'rsd',
+      100 => 'rub',
+      101 => 'rwf',
+      102 => 'sar',
+      103 => 'sbd',
+      104 => 'scr',
+      105 => 'sek',
+      106 => 'sgd',
+      107 => 'shp',
+      108 => 'sle',
+      109 => 'sos',
+      110 => 'srd',
+      111 => 'std',
+      112 => 'szl',
+      113 => 'thb',
+      114 => 'tjs',
+      115 => 'top',
+      116 => 'try',
+      117 => 'ttd',
+      118 => 'twd',
+      119 => 'tzs',
+      120 => 'uah',
+      121 => 'ugx',
+      122 => 'uyu',
+      123 => 'uzs',
+      124 => 'vnd',
+      125 => 'vuv',
+      126 => 'wst',
+      127 => 'xaf',
+      128 => 'xcd',
+      129 => 'xof',
+      130 => 'xpf',
+      131 => 'yer',
+      132 => 'zar',
+      133 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'has_card_readers_available' => false,
+  'platform_checkout_eligible' => true,
+  'platform_direct_checkout_eligible' => false,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://www.yourphotography.info/',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+  'locale' => 'en_US',
+  'has_more_failed_events' => false,
+  'has_submitted_vat_data' => false,
+  'is_documents_enabled' => false,
+  'card_testing_protection_eligible' => false,
+  'progressive_onboarding' => 
+  array (
+    'is_enabled' => true,
+    'is_complete' => false,
+    'tpv' => NULL,
+    'first_transaction_date' => NULL,
+    'kyc_deadline_date' => NULL,
+  ),
+  'fraud_mitigation_settings' => 
+  array (
+    'avs_check_enabled' => false,
+    'cvc_check_enabled' => true,
+  ),
+  'is_deferred_intent_creation_upe_enabled' => true,
+)
+2024-04-09T19:58:14+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-09T19:58:14+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/compatibility
+2024-04-09T19:58:14+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+  'Idempotency-Key' => '0edd57d9-d672-4d4d-8ff5-a8ac0421aab3',
+)
+2024-04-09T19:58:14+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'compatibility_data' => 
+  array (
+    'woopayments_version' => '7.4.0',
+    'woocommerce_version' => '8.7.0',
+    'blog_theme' => 'astra',
+    'active_plugins' => 
+    array (
+      0 => 'astra-sites/astra-sites.php',
+      1 => 'elementor/elementor.php',
+      2 => 'pymntpl-paypal-woocommerce/pymntpl-paypal-woocommerce.php',
+      3 => 'woo-stripe-payment/stripe-payments.php',
+      4 => 'woocommerce-payments/woocommerce-payments.php',
+      5 => 'woocommerce/woocommerce.php',
+      6 => 'wpforms-lite/wpforms.php',
+    ),
+    'post_types_count' => 
+    array (
+      'post' => 2,
+      'page' => 10,
+      'attachment' => 0,
+      'e-landing-page' => 0,
+      'elementor_library' => 2,
+      'product' => 12,
+    ),
+  ),
+)
+2024-04-09T19:58:15+00:00 INFO RESPONSE: array (
+  'result' => 'success',
+)
+2024-04-09T21:04:33+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'WordPress/6.5; https://www.yourphotography.info',
+  'REQUEST_URI' => '/wp-cron.php?doing_wp_cron=1712696672.9019138813018798828125',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => true,
+  'WP_CLI' => false,
+)
+2024-04-09T21:04:33+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/wcpay/woopay/compatibility?test_mode=1
+2024-04-09T21:04:33+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-09T21:04:33+00:00 INFO RESPONSE: array (
+  'incompatible_extensions' => 
+  array (
+    0 => 'class-wcdonation',
+    1 => 'woocommerce-table-rate-shipping',
+    2 => 'woocommerce-memberships-for-teams',
+    3 => 'woocommerce-checkout-add-ons',
+    4 => 'woocommerce-checkout-field-editor',
+    5 => 'woocommerce-eu-vat-number',
+    6 => 'woocommerce-order-delivery',
+    7 => 'woocommerce-pdf-product-vouchers',
+    8 => 'woocommerce-shipping-local-pickup-plus',
+    9 => 'woocommerce-shipping-multiple-addresses',
+    10 => 'woocommerce-smart-coupons',
+    11 => 'woocommerce-subscriptions-gifting',
+    12 => 'woocommerce-bookings',
+    13 => 'woocommmerce-bookings',
+    14 => 'advanced-product-fields-for-woocommerce',
+  ),
+  'adapted_extensions' => 
+  array (
+    0 => 'woocommerce-points-and-rewards',
+    1 => 'woocommerce-gift-cards',
+  ),
+  'available_countries' => 
+  array (
+    0 => 'US',
+  ),
+)
+2024-04-09T21:55:48+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2024-04-09T21:55:48+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/disputes?test_mode=1&pagesize=50&search%5B0%5D=warning_needs_response&search%5B1%5D=needs_response
+2024-04-09T21:55:48+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/7.4.0',
+)
+2024-04-09T21:55:48+00:00 INFO Could not process the account. (wcpay_could_not_process_account)
